@@ -7,22 +7,22 @@
 - Mamadou DOUMBIA
 - Femi MOUMOUNI
 
-## 🔗 Liens
-- 🌐 Front-end déployé : à venir...
-- 🧠 Programme sur l’explorateur Solana : à venir...
+## Liens
+- Front-end déployé : à venir...
+- Programme sur l’explorateur Solana : à venir...
 
-## 🛠️ Stack utilisée
+## Stack utilisée
 - Solana / Anchor Framework (smart contract)
 - Rust
 - React.js (front-end)
 - Tailwind CSS
 - Vercel (déploiement front)
 
-## 🚀 Description
+## Description
 Ce projet est un système d'épargne automatique sur la blockchain Solana.  
 À chaque dépôt, 10% du montant est automatiquement mis de côté et bloqué pendant 12 mois, pour encourager l'épargne à long terme.
 
-## 📦 Structure du projet
+## Structure du projet
 
 sol-saving-app/ 
 ├── program/ # Code Anchor 
