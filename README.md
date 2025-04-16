@@ -1,9 +1,9 @@
 # sol-saving-app
 Épargne automatique sur Solana (Projet Alyra)
 
-# 💰 Épargne Automatique sur Solana
+# Épargne Automatique sur Solana
 
-## 👤 Apprenants
+## Apprenants
 - Mamadou DOUMBIA
 - Femi MOUMOUNI
 
