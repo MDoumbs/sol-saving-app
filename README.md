@@ -15,6 +15,8 @@
 - Solana / Anchor Framework (smart contract)
 - Rust
 - React.js (front-end)
+- Vite
+- Solana Web3.js
 - Tailwind CSS
 - Vercel (déploiement front)
 
