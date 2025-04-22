@@ -1,1 +1,80 @@
+import React, { useState } from "react";
+
+const App = () => {
+  const [nameInput, setNameInput] = useState("");
+  const [amountInput, setAmountInput] = useState("");
+
+  const simulate = (action, value = null) => {
+    alert(`Simulation : ${action} ${value ? `avec valeur ${value}` : ""}`);
+    console.log(`Simulation de ${action}`, value);
+  };
+
+  return (
+    <div style={{ padding: "2rem" }}>
+      <h1>🌞 Solana DApp - Saving App </h1>
+
+      {/* Initialisation utilisateur */}
+      <div>
+        <h3> 😊 Initialize User</h3>
+        <input
+          type="text"
+          placeholder="Nom de l'utilisateur"
+          value={nameInput}
+          onChange={(e) => setNameInput(e.target.value)}
+        />
+        <button onClick={() => simulate("Initialize User", nameInput)}>Initialiser</button>
+      </div>
+
+      {/* Create Saving Account */}
+      <div>
+        <h3> 💰 Create Saving Account</h3>
+        <button onClick={() => simulate("Create Saving Account")}>Créer un compte épargne</button>
+      </div>
+
+      {/* Deposit SOL */}
+      <div>
+        <h3> 🪙 Deposit SOL</h3>
+        <input
+          type="number"
+          placeholder="Montant en SOL"
+          value={amountInput}
+          onChange={(e) => setAmountInput(e.target.value)}
+        />
+        <button onClick={() => simulate("Deposit SOL", amountInput)}>Déposer</button>
+      </div>
+
+      {/* Withdraw SOL */}
+      <div>
+        <h3> 🤑 Withdraw SOL</h3>
+        <input
+          type="number"
+          placeholder="Montant à retirer"
+          value={amountInput}
+          onChange={(e) => setAmountInput(e.target.value)}
+        />
+        <button onClick={() => simulate("Withdraw SOL", amountInput)}>Retirer</button>
+      </div>
+
+      {/* Check Balance */}
+      <div>
+        <h3> 🔍 Check Balance</h3>
+        <button onClick={() => simulate("Check Balance")}>Vérifier le solde</button>
+      </div>
+
+      {/* Withdraw Saving */}
+      <div>
+        <h3> 🍕 Withdraw Saving</h3>
+        <input
+          type="number"
+          placeholder="Montant à retirer du compte épargne"
+          value={amountInput}
+          onChange={(e) => setAmountInput(e.target.value)}
+        />
+        <button onClick={() => simulate("Withdraw Saving", amountInput)}>Retirer épargne</button>
+      </div>
+    </div>
+  );
+};
+
+export default App;
 
