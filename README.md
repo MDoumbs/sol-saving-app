@@ -8,7 +8,7 @@
 - Femi MOUMOUNI
 
 ## Liens
-- Front-end déployé : à venir...
+- Front-end déployé :
 - Programme sur l'outil en ligne Solana : https://beta.solpg.io/
 
 ## Stack utilisée
