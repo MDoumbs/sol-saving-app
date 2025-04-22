@@ -9,7 +9,7 @@
 
 ## Liens
 - Front-end déployé : à venir...
-- Programme sur l’explorateur Solana : à venir...
+- Programme sur l'outil en ligne Solana : https://beta.solpg.io/
 
 ## Stack utilisée
 - Solana / Anchor Framework (smart contract)
